@@ -1,4 +1,3 @@
-
 ## Before marking this PR as Ready for Review
 
 - [ ] I have followed the code style guidelines for this project.
