@@ -1,0 +1,39 @@
+.items {
+  max-width: 95vw;
+  margin: 15px 10px;
+  background-color: white;
+  padding: 10px 0px;
+  gap: 1cap;
+  display: flex;
+}
+
+.card-item {
+  width: 10vw;
+  height: 12vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-item img {
+  max-height: 120px;
+  max-width: 140px;
+  margin-left: 1cap;
+}
+
+.name {
+  margin-top: 2cap;
+}
+
+.discount {
+  color: green;
+  margin-top: 0.5cap;
+  text-align: center;
+}
+
+.shop {
+  margin-top: 1cap;
+  color: grey;
+  text-align: center;
+}
