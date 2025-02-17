@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", serif;
+}
+
+.menu {
+  display: flex;
+  max-width: 1280px;
+  height: 100px;
+  color: #212121;
+  margin: 1cap 28cap;
+  gap: 3px;
+}
+
+.menu-image {
+  width: 90px;
+  height: 90px;
+  padding: 10px;
+  margin: 0px 20px;
+}
+
+.menu-image1 {
+  width: 100px;
+  height: 90px;
+  padding: 10px;
+  margin: 0px 20px;
+}
+
+.card {
+  height: 60px;
+  width: 60px;
+}
+
+.menu-image p {
+  text-align: center;
+}
+
+.menu-name {
+  font-size: smaller;
+  font-weight: 400;
+  margin-top: 0.5cap;
+}
+
+@media screen and (max-width: 1396px) {
+  .menu {
+    display: none;
+  }
+}
